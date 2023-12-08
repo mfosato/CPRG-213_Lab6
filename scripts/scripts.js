@@ -94,7 +94,7 @@ function changeDuration() {
     duration = document.getElementById("duration-text");
     const newDurationInput = prompt("Enter the new duration (in minutes): ");
     duration.innerHTML = newDurationInput;
-    recalculate()
+    recalculate();
 }
 
 changeDurationButton.addEventListener("click", changeDuration);
